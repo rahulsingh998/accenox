@@ -3846,30 +3846,30 @@ h6, .h6 {
 
 .hero-content h1 {
   line-height: 1;
-  font-size: 180px;
+  font-size: 70px;
   font-weight: 700;
   position: relative;
   margin-bottom: -85px;
   text-transform: uppercase; }
   @media only screen and (max-width: 1399px) {
     .hero-content h1 {
-      font-size: 150px; } }
+      font-size: 70px; } }
   @media only screen and (max-width: 991px) {
     .hero-content h1 {
-      font-size: 115px; } }
+      font-size: 70px; } }
   @media only screen and (max-width: 767px) {
     .hero-content h1 {
-      font-size: 85px;
+      font-size: 45px;
       margin-bottom: -30px; } }
   @media only screen and (max-width: 479px) {
     .hero-content h1 {
-      font-size: 70px; } }
+      font-size: 30px; } }
   @media only screen and (max-width: 375px) {
     .hero-content h1 {
-      font-size: 50px;
+      font-size: 35px;
       max-width: 250px; } }
   .hero-content h1 span {
-    color: transparent;
+    color: #55e6a5;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: white; }
 
@@ -3886,7 +3886,9 @@ h6, .h6 {
   display: -ms-flexbox;
   display: flex; }
   .hero-bottom-image img {
-    max-width: calc(100% - 70px); }
+    max-width: calc(100% - 70px);
+      background: linear-gradient(to right, #55e6a5 0, #0a183c 100%);
+  }
     @media only screen and (max-width: 575px) {
       .hero-bottom-image img {
         max-width: calc(100% - 50px); } }
@@ -3937,17 +3939,17 @@ h6, .h6 {
 .hero-title {
   line-height: 1;
   font-weight: 700;
-  font-size: 150px;
+  font-size: 100px;
   font-family: var(--ygency-primary-font); }
   @media only screen and (max-width: 1399px) {
     .hero-title {
-      font-size: 140px; } }
+      font-size: 100px; } }
   @media only screen and (max-width: 1199px) {
     .hero-title {
-      font-size: 110px; } }
+      font-size: 90px; } }
   @media only screen and (max-width: 991px) {
     .hero-title {
-      font-size: 85px;
+      font-size: 75px;
       line-height: 1.2; } }
   @media only screen and (max-width: 767px) {
     .hero-title {
@@ -4390,7 +4392,7 @@ h6, .h6 {
     animation: marquee 15s linear infinite; }
     .headline-text > span span {
       opacity: 0.2;
-      color: transparent;
+      color: #55e6a5;
       -webkit-text-stroke: 1px;
       -webkit-text-stroke-color: white; }
   @media only screen and (min-width: 1400px) {
@@ -5079,7 +5081,7 @@ h6, .h6 {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  padding: 35px 35px 30px;
+  padding: 35px 25px 30px;
   height: calc(100% - 30px);
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -6126,7 +6128,7 @@ blockquote {
     -o-transition: 0.25s;
     transition: 0.25s;
     font-weight: 700;
-    color: transparent;
+    color: #0d6efd;
     margin-bottom: 15px;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: rgba(255, 255, 255, 0.2); }
@@ -6387,14 +6389,14 @@ blockquote {
 /* Video Year */
 .video-year {
   line-height: 1;
-  font-size: 230px;
+  font-size: 145px;
   font-weight: 600;
   color: transparent;
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: rgba(255, 255, 255, 0.2); }
   @media only screen and (max-width: 1199px) {
     .video-year {
-      font-size: 150px; } }
+      font-size: 135px; } }
   @media only screen and (max-width: 575px) {
     .video-year {
       font-size: 100px; } }

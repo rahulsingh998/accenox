@@ -14,13 +14,13 @@ const Services = () => {
           <div className="row">
             <div className="col-lg-12">
               <h1 className="hero-title mb-100 rmb-50 wow fadeInUp delay-0-2s">
-                Digital Services
+              Explore Our Dynamic 
                 <img
                   className="mxw-10 leaf"
                   src="assets/images/banner/leaf.png"
                   alt="Leaf"
                 />
-                For Web Design &amp; Development
+                Service Offerings
               </h1>
             </div>
           </div>
@@ -221,36 +221,36 @@ const Services = () => {
             <div className="col-xl-3 col-md-6">
               <div className="work-step-item style-two mt-60 wow fadeInDown delay-0-2s">
                 <span className="step-number">Step 01</span>
-                <h4 className="title">Idea Generate</h4>
+                <h4 className="title">Define Goals</h4>
                 <div className="content">
-                  <p>Vero eos et accusamus iusto odio disimos</p>
+                  <p>Clarify website objectives for focused strategy.</p>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-md-6">
               <div className="work-step-item style-two wow fadeInUp delay-0-2s">
                 <span className="step-number">Step 02</span>
-                <h4 className="title">Plan &amp; Design</h4>
+                <h4 className="title">Understand Audience</h4>
                 <div className="content">
-                  <p>Quis autems eum iures reprehen voluptate</p>
+                  <p> Identify target demographics and user preferences.</p>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-md-6">
               <div className="work-step-item style-two mt-60 wow fadeInDown delay-0-2s">
                 <span className="step-number">Step 03</span>
-                <h4 className="title">Project Testing</h4>
+                <h4 className="title">Design & Develop</h4>
                 <div className="content">
-                  <p>To take example which ever undertakes</p>
+                  <p>Create visually appealing and user-friendly website.</p>
                 </div>
               </div>
             </div>
             <div className="col-xl-3 col-md-6">
               <div className="work-step-item style-two wow fadeInUp delay-0-2s">
                 <span className="step-number">Step 04</span>
-                <h4 className="title">Got Results</h4>
+                <h4 className="title">Launch & Iterate</h4>
                 <div className="content">
-                  <p>Avoids paine produces resultant pleasure</p>
+                  <p>Deploy website, gather feedback, and refine.</p>
                 </div>
               </div>
             </div>
@@ -263,9 +263,79 @@ const Services = () => {
           </div>
         </div>
       </section>
+
+      <section className="why-choose-area pt-90 rpt-60 rel z-1">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-xl-7">
+              <div className="why-choose-left-image mb-40 wow fadeInLeft delay-0-2s">
+                <img
+                  src="assets/images/services/leads-hero.png"
+                  alt="Why Choose Left Image"
+                />
+              </div>
+            </div>
+            <div className="col-xl-5">
+              <div className="why-choose-two-wrap">
+                <div className="section-title mb-55 wow fadeInUp delay-0-2s">
+                  <span className="sub-title mb-15">Why Choose Us</span>
+                  <h2>We Provide Services In One Places</h2>
+                </div>
+                <div className="why-choose-item-two wow fadeInUp delay-0-3s">
+                  <div className="icon">
+                    <i className="fas fa-check" />
+                    <span className="icon-bottom-shape" />
+                  </div>
+                  <div className="content">
+                    <h4>
+                      <Link legacyBehavior href="/service-details">
+                        <a>All-in-One Expertise:</a>
+                      </Link>
+                    </h4>
+                    <p>
+                     Web design, ecommerce, graphics, digital marketing—find everything you need for online success in one place.
+                    </p>
+                  </div>
+                </div>
+                <div className="why-choose-item-two wow fadeInUp delay-0-5s">
+                  <div className="icon">
+                    <i className="fas fa-check" />
+                    <span className="icon-bottom-shape" />
+                  </div>
+                  <div className="content">
+                    <h4>
+                      <Link legacyBehavior href="/service-details">
+                        <a>Custom Solutions:</a>
+                      </Link>
+                    </h4>
+                    <p>
+                      From bespoke websites to tailored applications, we deliver results that match your business goals perfectly.
+                    </p>
+                  </div>
+                </div>
+                <div className="why-choose-item-two wow fadeInUp delay-0-7s">
+                  <div className="icon">
+                    <i className="fas fa-check" />
+                  </div>
+                  <div className="content">
+                    <h4>
+                      <Link legacyBehavior href="/service-details">
+                        <a>Fast Results:</a>
+                      </Link>
+                    </h4>
+                    <p>
+                      Our innovative services and punctual delivery ensure you attract customers swiftly and stay ahead of the competition.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Work Process Area end */}
       {/* Testimonial Area start */}
-      <section className="testimonial-section pt-95 rpt-65 pb-130 rpb-100">
+      {/* <section className="testimonial-section pt-95 rpt-65 pb-130 rpb-100">
         <div className="container container-1210">
           <div className="row">
             <div className="col-lg-6">
@@ -435,7 +505,7 @@ const Services = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Testimonial Area end */}
       {/* footer area start */}
     </Layout>
