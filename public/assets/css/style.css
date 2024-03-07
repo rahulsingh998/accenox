@@ -3884,6 +3884,7 @@ h6, .h6 {
 .hero-bottom-image {
   display: -webkit-box;
   display: -ms-flexbox;
+  justify-content: space-between;
   display: flex; }
   .hero-bottom-image img {
     max-width: calc(100% - 70px);
@@ -6128,7 +6129,7 @@ blockquote {
     -o-transition: 0.25s;
     transition: 0.25s;
     font-weight: 700;
-    color: #0d6efd;
+    color: #5ee7e7;
     margin-bottom: 15px;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: rgba(255, 255, 255, 0.2); }
