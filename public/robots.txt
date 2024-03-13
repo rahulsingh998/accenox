@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.accenox.com/
+
+# Sitemaps
+Sitemap: https://www.accenox.com/sitemap.xml

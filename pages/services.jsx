@@ -1,9 +1,28 @@
 import Layout from "@/src/layout/Layout";
 import { sliderProps } from "@/src/sliderProps";
+import {Nextseo} from 'next-seo'
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Services = () => {
-  return (
+  return (<>
+  <NextSeo
+        title="Services - Accenox"
+        description="Accenox offers a wide range of IT services and consulting solutions, including custom web and mobile application development, software solutions, workflow redesign, and process automation."
+        canonical="https://www.accenox.com/services"
+        openGraph={{
+          url: "https://www.accenox.com/services",
+          title: "Services - Accenox",
+          description: "Accenox offers a wide range of IT services and consulting solutions, including custom web and mobile application development, software solutions, workflow redesign, and process automation.",
+          images: [
+            {
+              url: "https://www.accenox.com/og-img-services.png",
+              width: 250,
+              height: 43,
+            }
+          ],
+          siteName: "Accenox",
+        }}
+      />
     <Layout>
       {/* Page Banner Section Start */}
       <section
@@ -509,6 +528,7 @@ const Services = () => {
       {/* Testimonial Area end */}
       {/* footer area start */}
     </Layout>
+    </>
   );
 };
 export default Services;

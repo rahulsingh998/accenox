@@ -42,9 +42,13 @@ const DaskTopMenu = () => {
       </Link>
       </li>
       <li >
-      <Link legacyBehavior href="blog"> Blog </Link>
+      <Link legacyBehavior href="/contact"> Contact Us </Link>
       
       </li>
+      {/* <li >
+      <Link legacyBehavior href="blog"> Blog </Link>
+      
+      </li> */}
     </ul>
   );
 };

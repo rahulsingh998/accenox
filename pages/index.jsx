@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
- 
+import { NextSeo } from 'next-seo'
 const Counter = dynamic(() => import('@/src/components/Counter'), {
   ssr: false,
 });
@@ -9,7 +9,25 @@ import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Index = () => {
-  return (
+  return (<>
+    <NextSeo
+            title="Accenox - It services and consulting"
+            description="We build custom web and mobile applications and software solutions for start-ups to enterprises. Let us redesign your workflow and automate your processes through digital solutions, and thus, expanding your customer outreach "
+            canonical="https://www.accenox.com/"
+      openGraph={{
+        url: "https://www.accenox.com/",
+        title: "Accenox - It services and consulting",
+        description: "We build custom web and mobile applications and software solutions for start-ups to enterprises. Let us redesign your workflow and automate your processes through digital solutions, and thus, expanding your customer outreach",
+        images: [
+          {
+            url: "https://www.accenox.com/og-img.png",
+            width: 250,
+            height: 43,
+          }
+        ],
+        siteName: `Accenox`,
+      }}
+       />
     <Layout>
       {/* Hero Section Start */}
       <section className="hero-area pt-185 rpt-150 rel z-1">
@@ -558,6 +576,7 @@ const Index = () => {
       {/* Blog Style Two end */}
       {/* footer area start */}
     </Layout>
+    </>
   );
 };
 export default Index;

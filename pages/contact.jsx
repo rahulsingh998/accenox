@@ -1,7 +1,26 @@
 import PageBanner from "@/src/components/PageBanner";
+import { NextSeo } from "next-seo";
 import Layout from "@/src/layout/Layout";
 const Contact = () => {
-  return (
+  return (<>
+   <NextSeo
+        title="Contact Us - Accenox"
+        description="Get in touch with Accenox - We build custom web and mobile applications and software solutions for start-ups to enterprises. Let us redesign your workflow and automate your processes through digital solutions."
+        canonical="https://www.accenox.com/contact"
+        openGraph={{
+          url: "https://www.accenox.com/contact",
+          title: "Contact Us - Accenox",
+          description: "Get in touch with Accenox - We build custom web and mobile applications and software solutions for start-ups to enterprises. Let us redesign your workflow and automate your processes through digital solutions.",
+          images: [
+            {
+              url: "https://www.accenox.com/og-img-contact.png",
+              width: 250,
+              height: 43,
+            }
+          ],
+          siteName: "Accenox",
+        }}
+      />
     <Layout>
       {/* Page Banner Start */}
       <PageBanner pageName={"Contact"} />
@@ -21,34 +40,20 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="row gap-80 pb-30">
-                  <div className="col-sm-6">
+                  {/* <div className="col-sm-6">
                     <div className="our-location-address mb-40">
                       <h5>New York</h5>
                       <p>
                         55 One State Road, 2nd Block New York, United States
                       </p>
-                      <a className="mailto" href="mailto:support@gmail.com">
-                        support@gmail.com
+                      <a className="mailto" href="mailto:connect@accenox.com">
+                      connect@accenox.com
                       </a>
                       <br />
-                      <a className="callto" href="callto:+00012345688">
-                        <i className="fas fa-phone" /> +000 (123) 456 88
-                      </a>
+                      
                     </div>
-                  </div>
-                  <div className="col-sm-6">
-                    <div className="our-location-address mb-40">
-                      <h5>Australia</h5>
-                      <p>67 One State Road, 2nd Block Melbourne, Australia</p>
-                      <a className="mailto" href="mailto:support@gmail.com">
-                        support@gmail.com
-                      </a>
-                      <br />
-                      <a className="callto" href="callto:+00012345688">
-                        <i className="fas fa-phone" /> +000 (123) 456 88
-                      </a>
-                    </div>
-                  </div>
+                  </div> */}
+                
                 </div>
                 <h4>Follow Us</h4>
                 <div className="social-style-two pt-15">
@@ -173,22 +178,11 @@ const Contact = () => {
       </section>
       {/* Contact Form Area end */}
       {/* Location Map Area Start */}
-      <div className="contact-page-map mb-120 rpb-90 wow fadeInUp delay-0-2s">
-        <div className="container-fluid">
-          <div className="our-location">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m12!1m10!1m3!1d142190.2862584524!2d-74.01298319978558!3d40.721725351435126!2m1!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sbd!4v1663473911885!5m2!1sen!2sbd"
-              style={{ border: 0, width: "100%" }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
-          </div>
-        </div>
-      </div>
+     
       {/* Location Map Area End */}
       {/* footer area start */}
     </Layout>
+    </>
   );
 };
 export default Contact;

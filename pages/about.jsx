@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
- 
+ import { NextSeo } from 'next-seo';
 const Counter = dynamic(() => import('@/src/components/Counter'), {
   ssr: false,
 });
@@ -8,7 +8,25 @@ import { sliderProps } from "@/src/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const About = () => {
-  return (
+  return (<>
+  <NextSeo
+        title="About Us - Accenox"
+        description="Learn more about Accenox - We are a team of professionals building custom web and mobile applications and software solutions for start-ups to enterprises."
+        canonical="https://www.accenox.com/about"
+        openGraph={{
+          url: "https://www.accenox.com/about",
+          title: "About Us - Accenox",
+          description: "Learn more about Accenox - We are a team of professionals building custom web and mobile applications and software solutions for start-ups to enterprises.",
+          images: [
+            {
+              url: "https://www.accenox.com/og-img-about.png",
+              width: 250,
+              height: 43,
+            }
+          ],
+          siteName: "Accenox",
+        }}
+      />
     <Layout>
       {/* Page Banner Section Start */}
       <section
@@ -243,6 +261,7 @@ const About = () => {
       </div>
       
     </Layout>
+    </>
   );
 };
 export default About;

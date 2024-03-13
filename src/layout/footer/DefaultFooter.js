@@ -55,12 +55,7 @@ const DefaultFooter = () => {
                 >
                   connect@accenox.com <i className="far fa-arrow-right" />
                 </a>
-                <a
-                  className="theme-btn style-three phone-number"
-                  href="callto:+000(123)45688"
-                >
-                  +000 (123) 456 88 <i className="far fa-arrow-right" />
-                </a>
+             
               </div>
             </div>
           </div>

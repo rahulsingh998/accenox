@@ -1,8 +1,27 @@
 import PageBanner from "@/src/components/PageBanner";
+import { NextSeo } from "next-seo";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
 const Projects = () => {
-  return (
+  return (<>
+  <NextSeo
+        title="Projects - Accenox"
+        description="Explore Accenox's portfolio of projects - We have built custom web and mobile applications and software solutions for various clients, from start-ups to enterprises."
+        canonical="https://www.accenox.com/projects"
+        openGraph={{
+          url: "https://www.accenox.com/projects",
+          title: "Projects - Accenox",
+          description: "Explore Accenox's portfolio of projects - We have built custom web and mobile applications and software solutions for various clients, from start-ups to enterprises.",
+          images: [
+            {
+              url: "https://www.accenox.com/og-img-projects.png",
+              width: 250,
+              height: 43,
+            }
+          ],
+          siteName: "Accenox",
+        }}
+      />
     <Layout>
       {/* Page Banner Start */}
       <PageBanner pageName={"Project Grid"} />
@@ -254,6 +273,7 @@ const Projects = () => {
       {/* Work With Area end */}
       {/* footer area start */}
     </Layout>
+    </>
   );
 };
 export default Projects;
