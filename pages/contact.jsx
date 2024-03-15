@@ -81,7 +81,7 @@ const Contact = () => {
                 <form
                   id="contactForm"
                   className="contactForm"
-                  action=""
+                  onSubmit={e => { e.preventDefault(); }}
                   name="contactForm"
                   method="post"
                 >
