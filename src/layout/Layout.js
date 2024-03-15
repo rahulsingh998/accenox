@@ -21,7 +21,7 @@ const Layout = ({ children, header, footer, singleMenu }) => {
         <Header header={header} singleMenu={singleMenu} />
         <SideBar />
         {children}
-        <Footer footer={footer} />
+        <Footer footer={5} />
         <ScrollTop />
       </div>
     </Fragment>

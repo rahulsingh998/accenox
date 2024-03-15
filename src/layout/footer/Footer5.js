@@ -7,12 +7,11 @@ const Footer5 = () => {
             <div className="footer-widget footer-about wow fadeInUp delay-0-2s">
               <div className="footer-logo mb-25">
                 <a href="index.html">
-                  <img src="assets/images/logos/accenox.png" alt="Logo" />
+                  <img src="assets/images/logos/accenox2.png" alt="Logo" />
                 </a>
               </div>
               <p>
-                Sed ut perspiciatis unde omnis iste natus error voluptatem
-                accusantium totam reme
+              We Offers well defined and standard Web Design & Web Design Services in a Cost-Effective Manner. For any enquiries please feel free to contact us !
               </p>
             </div>
           </div>
@@ -21,12 +20,12 @@ const Footer5 = () => {
               <ul className="list-style-two">
                 <li>
                   <i className="far fa-envelope" />{" "}
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <a href="mailto:connect@accenox.com">connect@accenox.com</a>
                 </li>
-                <li>
+                {/* <li>
                   <i className="far fa-phone" />{" "}
                   <a href="callto:+000(123)45688">+000 (123) 456 88</a>
-                </li>
+                </li> */}
                 <li>
                   <i className="far fa-clock" />{" "}
                   <span>Monday - Friday, 10am - 5pm</span>
@@ -58,7 +57,7 @@ const Footer5 = () => {
             <div className="col-lg-6">
               <div className="footer-copyright-text wow fadeInUp delay-0-2s">
                 <p>
-                  Copyright @2023, <a href="index.html">Ygency</a> All Rights
+                  Copyright @2024, <a href="#!">Accenox</a> All Rights
                   Reserved
                 </p>
               </div>
@@ -67,19 +66,16 @@ const Footer5 = () => {
               <div className="footer-bottom-menu text-lg-end wow fadeInRight delay-0-2s">
                 <ul>
                   <li>
-                    <a href="index.html">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="about.html">About</a>
+                    <a href="/about">About</a>
+                  </li> 
+                  <li>
+                    <a href="/services">Services</a>
                   </li>
                   <li>
-                    <a href="services.html">Services</a>
-                  </li>
-                  <li>
-                    <a href="about.html">Career ?</a>
-                  </li>
-                  <li>
-                    <a href="faqs.html">Faqs</a>
+                    <a href="#!">Faqs</a>
                   </li>
                 </ul>
               </div>

@@ -114,7 +114,7 @@ const DefaultFooter = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="faqs">
+                    <Link legacyBehavior href="!#">
                       Faqs ?
                     </Link>
                   </li>
@@ -144,8 +144,8 @@ const DefaultFooter = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="services">
-                      How IT Works
+                    <Link legacyBehavior href="/contact">
+                      Contact Us
                     </Link>
                   </li>
                 </ul>

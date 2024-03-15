@@ -37,7 +37,7 @@ const Projects = () => {
                     src="assets/images/projects/project-grid1.jpg"
                     alt="Project Grid"
                   />
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/#!">
                     <a className="project-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -48,7 +48,7 @@ const Projects = () => {
                     <a className="category">Creative Work</a>
                   </Link>
                   <h2>
-                    <Link legacyBehavior href="/project-details">
+                    <Link legacyBehavior href="/#!">
                       <a>
                         Task Management <i>Dashboard</i>
                       </a>
@@ -64,7 +64,7 @@ const Projects = () => {
                     src="assets/images/projects/project-grid2.jpg"
                     alt="Project Grid"
                   />
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/#!">
                     <a className="project-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -75,7 +75,7 @@ const Projects = () => {
                     <a className="category">Digital Product</a>
                   </Link>
                   <h2>
-                    <Link legacyBehavior href="/project-details">
+                    <Link legacyBehavior href="/#!">
                       <a>
                         Mobile Application <i>Development</i>
                       </a>
@@ -91,7 +91,7 @@ const Projects = () => {
                     src="assets/images/projects/project-grid3.jpg"
                     alt="Project Grid"
                   />
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/#!">
                     <a className="project-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -102,7 +102,7 @@ const Projects = () => {
                     <a className="category">Creative Work</a>
                   </Link>
                   <h2>
-                    <Link legacyBehavior href="/project-details">
+                    <Link legacyBehavior href="/#!">
                       <a>
                         Product Design &amp; <i>Branding</i>
                       </a>
@@ -118,7 +118,7 @@ const Projects = () => {
                     src="assets/images/projects/project-grid4.jpg"
                     alt="Project Grid"
                   />
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/#!">
                     <a className="project-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -129,7 +129,7 @@ const Projects = () => {
                     <a className="category">Digital Product</a>
                   </Link>
                   <h2>
-                    <Link legacyBehavior href="/project-details">
+                    <Link legacyBehavior href="/#!">
                       <a>
                         Digital Content For Web <i>Development</i>
                       </a>
@@ -145,7 +145,7 @@ const Projects = () => {
                     src="assets/images/projects/project-grid5.jpg"
                     alt="Project Grid"
                   />
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/#!">
                     <a className="project-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -156,7 +156,7 @@ const Projects = () => {
                     <a className="category">Creative Work</a>
                   </Link>
                   <h2>
-                    <Link legacyBehavior href="/project-details">
+                    <Link legacyBehavior href="/#!">
                       <a>
                         Task Management <i>Dashboard</i>
                       </a>
@@ -172,7 +172,7 @@ const Projects = () => {
                     src="assets/images/projects/project-grid6.jpg"
                     alt="Project Grid"
                   />
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/#!">
                     <a className="project-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -183,7 +183,7 @@ const Projects = () => {
                     <a className="category">Digital Product</a>
                   </Link>
                   <h2>
-                    <Link legacyBehavior href="/project-details">
+                    <Link legacyBehavior href="/#!">
                       <a>
                         Mobile Application <i>Development</i>
                       </a>
@@ -199,7 +199,7 @@ const Projects = () => {
                     src="assets/images/projects/project-grid7.jpg"
                     alt="Project Grid"
                   />
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/#!">
                     <a className="project-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -210,7 +210,7 @@ const Projects = () => {
                     <a className="category">Creative Work</a>
                   </Link>
                   <h2>
-                    <Link legacyBehavior href="/project-details">
+                    <Link legacyBehavior href="/#!">
                       <a>
                         Product Design &amp; <i>Branding</i>
                       </a>
@@ -226,7 +226,7 @@ const Projects = () => {
                     src="assets/images/projects/project-grid8.jpg"
                     alt="Project Grid"
                   />
-                  <Link legacyBehavior href="/project-details">
+                  <Link legacyBehavior href="/#!">
                     <a className="project-btn">
                       <i className="far fa-arrow-right" />
                     </a>
@@ -237,7 +237,7 @@ const Projects = () => {
                     <a className="category">Digital Product</a>
                   </Link>
                   <h2>
-                    <Link legacyBehavior href="/project-details">
+                    <Link legacyBehavior href="/#!">
                       <a>
                         Digital Content For Web <i>Development</i>
                       </a>

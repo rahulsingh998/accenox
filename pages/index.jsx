@@ -416,7 +416,7 @@ const Index = () => {
             <div className="content">
               <span className="serial-number">01</span>
               <h4>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/#!">
                   <a>Business Task Management Dashboard Design</a>
                 </Link>
               </h4>
@@ -428,7 +428,7 @@ const Index = () => {
               />
             </div>
             <div className="right-btn">
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="details-btn">
                   <i className="fal fa-long-arrow-right" />
                 </a>
@@ -439,7 +439,7 @@ const Index = () => {
             <div className="content">
               <span className="serial-number">02</span>
               <h4>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/#!">
                   <a>PSD, Figma &amp; XD to HTML Design &amp; Development</a>
                 </Link>
               </h4>
@@ -451,7 +451,7 @@ const Index = () => {
               />
             </div>
             <div className="right-btn">
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="details-btn">
                   <i className="fal fa-long-arrow-right" />
                 </a>
@@ -462,7 +462,7 @@ const Index = () => {
             <div className="content">
               <span className="serial-number">03</span>
               <h4>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/#!">
                   <a>Mobile Application Design &amp; Development</a>
                 </Link>
               </h4>
@@ -474,7 +474,7 @@ const Index = () => {
               />
             </div>
             <div className="right-btn">
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="details-btn">
                   <i className="fal fa-long-arrow-right" />
                 </a>

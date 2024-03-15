@@ -1,6 +1,6 @@
 import Layout from "@/src/layout/Layout";
 import { sliderProps } from "@/src/sliderProps";
-import {Nextseo} from 'next-seo'
+import { NextSeo } from "next-seo";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 const Services = () => {

@@ -40,9 +40,9 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="row gap-80 pb-30">
-                  {/* <div className="col-sm-6">
+                  <div className="col-sm-6">
                     <div className="our-location-address mb-40">
-                      <h5>New York</h5>
+                      <h5>Contact-Info :</h5>
                       <p>
                         55 One State Road, 2nd Block New York, United States
                       </p>
@@ -52,7 +52,7 @@ const Contact = () => {
                       <br />
                       
                     </div>
-                  </div> */}
+                  </div>
                 
                 </div>
                 <h4>Follow Us</h4>
@@ -96,7 +96,7 @@ const Contact = () => {
                           id="name"
                           name="name"
                           className="form-control"
-                          defaultValue
+                          
                           placeholder="Full Name"
                           required
                           data-error="Please enter your name"
@@ -114,7 +114,7 @@ const Contact = () => {
                           id="phone_number"
                           name="phone_number"
                           className="form-control"
-                          defaultValue
+                          
                           placeholder="Phone"
                           required
                           data-error="Please enter your Number"
@@ -132,7 +132,7 @@ const Contact = () => {
                           id="email"
                           name="email"
                           className="form-control"
-                          defaultValue
+                          
                           placeholder="Email Address"
                           required
                           data-error="Please enter your Email Address"
@@ -153,7 +153,7 @@ const Contact = () => {
                           placeholder="Message"
                           required
                           data-error="Please enter your Message"
-                          defaultValue={""}
+                       
                         />
                         <div className="help-block with-errors" />
                       </div>

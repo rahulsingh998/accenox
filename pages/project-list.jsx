@@ -16,7 +16,7 @@ const ProjectList = () => {
                 src="assets/images/projects/project-list1.jpg"
                 alt="Project List"
               />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="project-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -27,7 +27,7 @@ const ProjectList = () => {
                 <a className="category">Creative Work</a>
               </Link>
               <h2>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/#!">
                   <a>
                     Task Management <i>Dashboard</i>
                   </a>
@@ -38,7 +38,7 @@ const ProjectList = () => {
                 Sed ut perspiciatis unde omnis iste natus error sitesy
                 voluptatem accusantium doloremque lauda
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="read-more">
                   Project Details <i className="far fa-arrow-right" />
                 </a>
@@ -51,7 +51,7 @@ const ProjectList = () => {
                 <a className="category">Digital Product</a>
               </Link>
               <h2>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/#!">
                   <a>
                     Mobile Application <i>Development</i>
                   </a>
@@ -62,7 +62,7 @@ const ProjectList = () => {
                 Sed ut perspiciatis unde omnis iste natus error sitesy
                 voluptatem accusantium doloremque lauda
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="read-more">
                   Project Details <i className="far fa-arrow-right" />
                 </a>
@@ -73,7 +73,7 @@ const ProjectList = () => {
                 src="assets/images/projects/project-list2.jpg"
                 alt="Project List"
               />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="project-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -86,7 +86,7 @@ const ProjectList = () => {
                 src="assets/images/projects/project-list3.jpg"
                 alt="Project List"
               />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="project-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -97,7 +97,7 @@ const ProjectList = () => {
                 <a className="category">Creative Work</a>
               </Link>
               <h2>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/#!">
                   <a>
                     Product Design &amp; <i>Branding</i>
                   </a>
@@ -108,7 +108,7 @@ const ProjectList = () => {
                 Sed ut perspiciatis unde omnis iste natus error sitesy
                 voluptatem accusantium doloremque lauda
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="read-more">
                   Project Details <i className="far fa-arrow-right" />
                 </a>
@@ -121,7 +121,7 @@ const ProjectList = () => {
                 <a className="category">Digital Product</a>
               </Link>
               <h2>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/#!">
                   <a>
                     Digital Content For <i>Web Development</i>
                   </a>
@@ -132,7 +132,7 @@ const ProjectList = () => {
                 Sed ut perspiciatis unde omnis iste natus error sitesy
                 voluptatem accusantium doloremque lauda
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="read-more">
                   Project Details <i className="far fa-arrow-right" />
                 </a>
@@ -143,7 +143,7 @@ const ProjectList = () => {
                 src="assets/images/projects/project-list4.jpg"
                 alt="Project List"
               />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="project-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -156,7 +156,7 @@ const ProjectList = () => {
                 src="assets/images/projects/project-list5.jpg"
                 alt="Project List"
               />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="project-btn">
                   <i className="far fa-arrow-right" />
                 </a>
@@ -167,7 +167,7 @@ const ProjectList = () => {
                 <a className="category">Creative Work</a>
               </Link>
               <h2>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/#!">
                   <a>
                     Product Design <i>&amp; Branding</i>
                   </a>
@@ -178,7 +178,7 @@ const ProjectList = () => {
                 Sed ut perspiciatis unde omnis iste natus error sitesy
                 voluptatem accusantium doloremque lauda
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="read-more">
                   Project Details <i className="far fa-arrow-right" />
                 </a>
@@ -191,7 +191,7 @@ const ProjectList = () => {
                 <a className="category">Digital Product</a>
               </Link>
               <h2>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/#!">
                   <a>
                     Digital Content For <i>Web Development</i>
                   </a>
@@ -202,7 +202,7 @@ const ProjectList = () => {
                 Sed ut perspiciatis unde omnis iste natus error sitesy
                 voluptatem accusantium doloremque lauda
               </p>
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="read-more">
                   Project Details <i className="far fa-arrow-right" />
                 </a>
@@ -213,7 +213,7 @@ const ProjectList = () => {
                 src="assets/images/projects/project-list6.jpg"
                 alt="Project List"
               />
-              <Link legacyBehavior href="/project-details">
+              <Link legacyBehavior href="/#!">
                 <a className="project-btn">
                   <i className="far fa-arrow-right" />
                 </a>

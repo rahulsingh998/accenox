@@ -39,7 +39,7 @@ const ProjectDetails = () => {
         <div className="container-fluid">
           <div className="image wow fadeInUp delay-0-2s">
             <img
-              src="assets/images/projects/project-details.jpg"
+              src="assets/images/projects/#!.jpg"
               alt="Project"
             />
           </div>
@@ -156,7 +156,7 @@ const ProjectDetails = () => {
                     Digital Product Design
                   </Link>
                 </h4>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/#!">
                   <a className="read-more">
                     Prev <i className="far fa-arrow-right" />
                   </a>
@@ -170,7 +170,7 @@ const ProjectDetails = () => {
                     Web Development
                   </Link>
                 </h4>
-                <Link legacyBehavior href="/project-details">
+                <Link legacyBehavior href="/#!">
                   <a className="read-more">
                     Next <i className="far fa-arrow-right" />
                   </a>
