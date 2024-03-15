@@ -58,8 +58,8 @@ const Index = () => {
               <a href="#">
                 <i className="fab fa-twitter" /> <span>Twitter</span>
               </a>
-              <a href="#">
-                <i className="fab fa-dribbble" /> <span>Dribbble</span>
+              <a target="_blank" href="https://in.linkedin.com/company/accenox?trk=public_jobs_topcard-org-name">
+                <i className="fab fa-linkedin-in" /> <span>Linkedin</span>
               </a>
               <a href="#">
                 <i className="fab fa-behance" /> <span>Behance</span>
