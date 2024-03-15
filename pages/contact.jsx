@@ -81,7 +81,7 @@ const Contact = () => {
                 <form
                   id="contactForm"
                   className="contactForm"
-                  action="#!"
+                  action=""
                   name="contactForm"
                   method="post"
                 >
