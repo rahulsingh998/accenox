@@ -66,7 +66,7 @@ const Contact = () => {
                   <a href="#">
                     <i className="fab fa-instagram" />
                   </a>
-                  <a href="#">
+                  <a target="_blank" href="https://in.linkedin.com/company/accenox?trk=public_jobs_topcard-org-name">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
