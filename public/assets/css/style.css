@@ -3932,9 +3932,9 @@ h6, .h6 {
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg); }
-    @media only screen and (max-width: 991px) {
+
       .hero-social a span {
-        display: none; } }
+        display: none; } 
 
 /* Hero Area Two */
 .hero-title {
