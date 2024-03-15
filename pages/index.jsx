@@ -113,7 +113,7 @@ const Index = () => {
         <div className="container-fluid">
           <div className="headline-text marquee">
             <span>
-              Web <span>Design</span> Agency
+             We expertise in Web Design & Development
             </span>
           </div>
         </div>
