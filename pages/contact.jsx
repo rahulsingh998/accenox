@@ -81,7 +81,7 @@ const Contact = () => {
                 <form
                   id="contactForm"
                   className="contactForm"
-                  action="assets/php/form-process.php"
+                  action="#!"
                   name="contactForm"
                   method="post"
                 >
