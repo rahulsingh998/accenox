@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
       <link
           rel="shortcut icon"
-          href="assets/images/favicon.png"
+          href="assets/images/favicon.ico"
           type="image/x-icon"
         />
         {/* Google Fonts */}
