@@ -36,13 +36,13 @@ const Footer5 = () => {
           <div className="col-lg-4 col-md-6">
             <div className="footer-widget newsletter-widget wow fadeInUp delay-0-6s">
               <form className="footer-newsletter" action="#">
-                <input type="email" placeholder="Email Address" required />
-                <button type="submit">
+                <input type="email" placeholder="connect@accenox.com" required />
+                <button type="submit" disabled>
                   <i className="fas fa-arrow-right" />
-                </button>
+                </button >
               </form>
               <div className="policy">
-                <input id="privacy-policy" type="checkbox" />
+                <input id="privacy-policy" type="checkbox"  />
                 <label htmlFor="privacy-policy">
                   I agree to the <a href="about.html">Privacy Policy</a>
                 </label>

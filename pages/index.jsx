@@ -134,7 +134,7 @@ const Index = () => {
                     <span>01</span>
                   </div>
                   <div className="content">
-                    <h5>custom web & application development</h5>
+                    <h5>Custom web & application development</h5>
                     <p>
                     Experience our comprehensive Custom Web & Application Development services tailored to your unique requirements for digital innovation and success.
                     </p>
@@ -151,7 +151,7 @@ const Index = () => {
                     <span>02</span>
                   </div>
                   <div className="content">
-                    <h5>crm & cms development</h5>
+                    <h5>Crm & cms development</h5>
                     <p>
                     Empower your business with our expert CRM & CMS development solutions, tailored to streamline operations and enhance customer experiences.
                     </p>
