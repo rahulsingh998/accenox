@@ -1070,7 +1070,7 @@ h1, .h1 {
   font-size: 80px; }
 
 h2, .h2 {
-  font-size: 48px; }
+  font-size: 35px; }
 
 h3, .h3 {
   font-size: 30px; }
@@ -3854,10 +3854,10 @@ h6, .h6 {
   text-transform: uppercase; }
   @media only screen and (max-width: 1399px) {
     .hero-content h1 {
-      font-size: 70px; } }
+      font-size: 60px; } }
   @media only screen and (max-width: 991px) {
     .hero-content h1 {
-      font-size: 70px; } }
+      font-size: 60px; } }
   @media only screen and (max-width: 767px) {
     .hero-content h1 {
       font-size: 45px;
@@ -3867,7 +3867,7 @@ h6, .h6 {
       font-size: 30px; } }
   @media only screen and (max-width: 375px) {
     .hero-content h1 {
-      font-size: 35px;
+      font-size: 25px;
       max-width: 250px; } }
   .hero-content h1 span {
     color: #55e6a5;
@@ -3889,7 +3889,8 @@ h6, .h6 {
   display: flex; }
   .hero-bottom-image img {
     max-width: calc(100% - 70px);
-      background: linear-gradient(to right, #55e6a5 0, #0a183c 100%);
+    /* background: linear-gradient(to right, #55e6a5 0, #0a183c 100%); */
+    border-radius: 25px;
   }
     @media only screen and (max-width: 575px) {
       .hero-bottom-image img {
@@ -4390,10 +4391,10 @@ h6, .h6 {
       font-size: 40px; } }
   .headline-text > span {
     padding-left: 100%;
-    -webkit-animation: marquee 15s linear infinite;
-    animation: marquee 15s linear infinite; }
+    -webkit-animation: marquee 30s linear infinite;
+    animation: marquee 30s linear infinite; }
     .headline-text > span span {
-      opacity: 0.2;
+      
       color: #55e6a5;
       -webkit-text-stroke: 1px;
       -webkit-text-stroke-color: white; }
@@ -4420,8 +4421,8 @@ h6, .h6 {
   overflow: hidden;
   white-space: nowrap; }
   .headline-wrap > span {
-    -webkit-animation: marquee 15s linear infinite;
-    animation: marquee 15s linear infinite; }
+    -webkit-animation: marquee 30s linear infinite;
+    animation: marquee 30s linear infinite; }
     .headline-wrap > span .marquee-item {
       margin-right: 50px;
       line-height: 1.2;
@@ -6130,7 +6131,7 @@ blockquote {
     -o-transition: 0.25s;
     transition: 0.25s;
     font-weight: 700;
-    color: #5ee7e7;
+    color: #03be8e;
     margin-bottom: 15px;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: rgba(255, 255, 255, 0.2); }

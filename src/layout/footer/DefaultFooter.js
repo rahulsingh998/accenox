@@ -156,7 +156,7 @@ const DefaultFooter = () => {
                 <p>
                   Copyright @2024,{" "}
                   <Link legacyBehavior href="/">
-                    <a>Accenox</a>
+                    <a>Accenox Solutions</a>
                   </Link>{" "}
                   All Rights Reserved
                 </p>

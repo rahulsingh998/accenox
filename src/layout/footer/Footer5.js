@@ -11,7 +11,7 @@ const Footer5 = () => {
                 </a>
               </div>
               <p>
-              We Offers well defined and standard Web Design & Web Design Services in a Cost-Effective Manner. For any enquiries please feel free to contact us !
+              Experience top-tier Web Design & Development Services tailored to your needs, without breaking the bank. Our solutions are not only cost-effective but also delivered with precision and quality. For inquiries, our round-the-clock support team is here to assist you. Get in touch today to elevate your digital presence!
               </p>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Footer5 = () => {
                 </li> */}
                 <li>
                   <i className="far fa-clock" />{" "}
-                  <span>Monday - Friday, 10am - 5pm</span>
+                  <span>We are first service providers who are giving you 24/7 service</span>
                 </li>
               </ul>
             </div>
@@ -44,7 +44,7 @@ const Footer5 = () => {
               <div className="policy">
                 <input id="privacy-policy" type="checkbox"  />
                 <label htmlFor="privacy-policy">
-                  I agree to the <a href="about.html">Privacy Policy</a>
+                  I agree to the <a href="#!">Privacy Policy</a>
                 </label>
               </div>
             </div>
@@ -57,7 +57,7 @@ const Footer5 = () => {
             <div className="col-lg-6">
               <div className="footer-copyright-text wow fadeInUp delay-0-2s">
                 <p>
-                  Copyright @2024, <a href="#!">Accenox</a> All Rights
+                  Copyright @2024, <a href="#!">Accenox Solutions</a> All Rights
                   Reserved
                 </p>
               </div>

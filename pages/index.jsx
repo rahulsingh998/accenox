@@ -34,9 +34,10 @@ const Index = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-8">
-              <div className="hero-content wow fadeInLeft delay-0-2s">
+              <div className="hero-content wow fadeInLeft delay-0-2s" style={{ marginBottom: '45px' }}>
                 <h1>
-                Transforming <br/> <span>Ideas into</span><br/> <i>Digital Reality</i>
+                Crafting Digital <br/> <span>Excellence</span><br/> <i>for Every Budget</i>
+                  
                 </h1>
               </div>
             </div>
@@ -49,7 +50,7 @@ const Index = () => {
         </div>
         <div className="container-fluid">
           <div className="hero-bottom-image">
-            <img src="assets/images/hero/hero4.png" alt="Hero" />
+            <img src="assets/images/hero/hero5.jpg" alt="Hero" />
             
             <div className="hero-social">
               <a href="#">
@@ -89,7 +90,7 @@ const Index = () => {
                 <div className="section-title mb-40">
                   <span className="sub-title mb-15">About Company</span>
                   <h2>
-                  We are the large business expert in Europe and Asia
+                  Unlock Your Potential: Your Growth Journey Starts Here with Us!
                   </h2>
                 </div>
                 <div className="content">
@@ -138,7 +139,7 @@ const Index = () => {
                     <p>
                     Experience our comprehensive Custom Web & Application Development services tailored to your unique requirements for digital innovation and success.
                     </p>
-                    <Link legacyBehavior href="/service-details">
+                    <Link legacyBehavior href="#!">
                       <a className="read-more style-two">
                         <span>Read More</span>{" "}
                         <i className="far fa-arrow-right" />
@@ -155,7 +156,7 @@ const Index = () => {
                     <p>
                     Empower your business with our expert CRM & CMS development solutions, tailored to streamline operations and enhance customer experiences.
                     </p>
-                    <Link legacyBehavior href="/service-details">
+                    <Link legacyBehavior href="#!">
                       <a className="read-more style-two">
                         <span>Read More</span>{" "}
                         <i className="far fa-arrow-right" />
@@ -172,7 +173,7 @@ const Index = () => {
                     <p>
                     Elevate your online presence with strategic digital marketing solutions tailored to your goals.
                     </p>
-                    <Link legacyBehavior href="/service-details">
+                    <Link legacyBehavior href="#!">
                       <a className="read-more style-two">
                         <span>Read More</span>{" "}
                         <i className="far fa-arrow-right" />
@@ -246,15 +247,15 @@ const Index = () => {
               <div className="service-three-item wow fadeInUp delay-0-2s">
                 <div className="title-icon">
                   <h5>
-                    <Link legacyBehavior href="/service-details">
+                    <Link legacyBehavior href="#!">
                       <a>Mobile apps</a>
                     </Link>
                   </h5>
-                  <img src="assets/images/services/apps.png" alt="Icon" />
+                  <img src="assets/images/services/mobile-apps.png" alt="Icon" />
                 </div>
                 <div className="content">
                   <p className='text-center'>Delight your users on the go with intuitive, mobile solutions designed for seamless user experiences with high-performance mobile applications.</p>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="#!">
                     <a className="read-more style-two">
                       <span>Read More</span>{" "}
                       <i className="far fa-arrow-right" />
@@ -267,15 +268,15 @@ const Index = () => {
               <div className="service-three-item wow fadeInDown delay-0-2s">
                 <div className="title-icon">
                   <h5>
-                    <Link legacyBehavior href="/service-details">
+                    <Link legacyBehavior href="#!">
                       <a>UI & UX</a>
                     </Link>
                   </h5>
-                  <img src="assets/images/services/ux.png" alt="Icon" />
+                  <img src="assets/images/services/ui-ux.png" alt="Icon" />
                 </div>
                 <div className="content">
                   <p>Engaging designs that captivate and delight your users. We offer all kinds of web design services, from logo design development to full website design.</p>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="#!">
                     <a className="read-more style-two">
                       <span>Read More</span>{" "}
                       <i className="far fa-arrow-right" />
@@ -288,15 +289,15 @@ const Index = () => {
               <div className="service-three-item wow fadeInUp delay-0-2s">
                 <div className="title-icon">
                   <h5>
-                    <Link legacyBehavior href="/service-details">
+                    <Link legacyBehavior href="#!">
                       <a>Salesforce CRM</a>
                     </Link>
                   </h5>
-                  <img src="assets/images/services/salesforce.png" alt="Icon" />
+                  <img src="assets/images/services/salesforce-crm.png" alt="Icon" />
                 </div>
                 <div className="content">
                   <p>Streamline your business operations and elevate customer relationships to new heights with our comprehensive Salesforce CRM solutions.</p>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="#!">
                     <a className="read-more style-two">
                       <span>Read More</span>{" "}
                       <i className="far fa-arrow-right" />
@@ -309,15 +310,15 @@ const Index = () => {
               <div className="service-three-item wow fadeInDown delay-0-2s">
                 <div className="title-icon">
                   <h5>
-                    <Link legacyBehavior href="/service-details">
+                    <Link legacyBehavior href="#!">
                       <a>Custom Web development</a>
                     </Link>
                   </h5>
-                  <img src="assets/images/services/customweb.png" alt="Icon" />
+                  <img src="assets/images/services/custom-web-development.png" alt="Icon" />
                 </div>
                 <div className="content">
                   <p>Tailored websites crafted to fit your unique needs, ensuring a standout online presence.</p>
-                  <Link legacyBehavior href="/service-details">
+                  <Link legacyBehavior href="#!">
                     <a className="read-more style-two">
                       <span>Read More</span>{" "}
                       <i className="far fa-arrow-right" />
@@ -518,7 +519,7 @@ const Index = () => {
                   </div>
                   <div className="content">
                     <h4>
-                      <Link legacyBehavior href="/service-details">
+                      <Link legacyBehavior href="#!">
                         <a>All-in-One Expertise:</a>
                       </Link>
                     </h4>
@@ -534,7 +535,7 @@ const Index = () => {
                   </div>
                   <div className="content">
                     <h4>
-                      <Link legacyBehavior href="/service-details">
+                      <Link legacyBehavior href="#!">
                         <a>Custom Solutions:</a>
                       </Link>
                     </h4>
@@ -549,7 +550,7 @@ const Index = () => {
                   </div>
                   <div className="content">
                     <h4>
-                      <Link legacyBehavior href="/service-details">
+                      <Link legacyBehavior href="#!">
                         <a>Fast Results:</a>
                       </Link>
                     </h4>

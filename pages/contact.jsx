@@ -35,7 +35,7 @@ const Contact = () => {
                   <div className="col-xl-10">
                     <div className="section-title mb-60">
                       <span className="sub-title mb-15">Contact Us</span>
-                      <h2>Ready to Work Your Next Projects</h2>
+                      <h2>You can take a free consultation any time on the provided email address</h2>
                     </div>
                   </div>
                 </div>
@@ -43,9 +43,9 @@ const Contact = () => {
                   <div className="col-sm-6">
                     <div className="our-location-address mb-40">
                       <h5>Contact-Info :</h5>
-                      <p>
+                      {/* <p>
                         55 One State Road, 2nd Block New York, United States
-                      </p>
+                      </p> */}
                       <a className="mailto" href="mailto:connect@accenox.com">
                       connect@accenox.com
                       </a>

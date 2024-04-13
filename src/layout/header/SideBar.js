@@ -44,6 +44,9 @@ const SideBar = () => {
           </div>
           {/*Social Icons*/}
           <div className="social-style-one">
+            <a target="_blank" href="https://in.linkedin.com/company/accenox?trk=public_jobs_topcard-org-name">
+                <i className="fab fa-linkedin-in" /> 
+              </a>
             <a href="#">
               <i className="fab fa-twitter" />
             </a>
@@ -52,9 +55,6 @@ const SideBar = () => {
             </a>
             <a href="#">
               <i className="fab fa-instagram" />
-            </a>
-            <a href="#">
-              <i className="fab fa-pinterest-p" />
             </a>
           </div>
         </div>

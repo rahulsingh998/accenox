@@ -71,7 +71,7 @@ const About = () => {
           <div className="row">
             <div className="col-lg-6 wow fadeInLeft delay-0-2s">
               <div className="client-text text-lg-start text-center mt-40 pb-50">
-              Improve your digital presence with our experts in Web and mobile Apps, Web Design, and UI/UX Design. Your vision, our innovation. Lets build together!
+              Transform your digital presence with our team of experts specializing in Web and Mobile App Development, Web Design, and UI/UX Design. We're here to bring your vision to life with our innovative solutions. Let's collaborate and build something extraordinary together!
               </div>
             
             </div>
